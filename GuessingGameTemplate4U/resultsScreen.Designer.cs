@@ -69,7 +69,7 @@
             this.unsortedOutput.ForeColor = System.Drawing.Color.White;
             this.unsortedOutput.Location = new System.Drawing.Point(38, 211);
             this.unsortedOutput.Name = "unsortedOutput";
-            this.unsortedOutput.Size = new System.Drawing.Size(307, 23);
+            this.unsortedOutput.Size = new System.Drawing.Size(307, 46);
             this.unsortedOutput.TabIndex = 3;
             // 
             // sortedOutput
@@ -77,7 +77,7 @@
             this.sortedOutput.ForeColor = System.Drawing.Color.White;
             this.sortedOutput.Location = new System.Drawing.Point(38, 293);
             this.sortedOutput.Name = "sortedOutput";
-            this.sortedOutput.Size = new System.Drawing.Size(307, 23);
+            this.sortedOutput.Size = new System.Drawing.Size(307, 48);
             this.sortedOutput.TabIndex = 4;
             // 
             // resultsScreen
@@ -91,7 +91,7 @@
             this.Controls.Add(this.resultsLabel);
             this.Controls.Add(this.titleLabel);
             this.Name = "resultsScreen";
-            this.Size = new System.Drawing.Size(404, 367);
+            this.Size = new System.Drawing.Size(404, 419);
             this.ResumeLayout(false);
             this.PerformLayout();
 

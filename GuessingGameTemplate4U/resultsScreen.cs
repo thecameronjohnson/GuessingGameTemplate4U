@@ -16,6 +16,17 @@ namespace GuessingGameTemplate4U
         {
             InitializeComponent();
 
+            guessesOutput.Text += "Guesses made: " + Form1.unsortedGuess.Count();
+            sortedOutput.Text = "Sorted Order:\n";
+            unsortedOutput.Text = "Unsorted Order:\n";
+            int albumAmount = Form1.sortedGuess.Count();
+            for (int i = 0; i < albumAmount; i++)
+            {
+                
+                unsortedOutput.Text += Form1.unsortedGuess[i] + " ";
+                sortedOutput.Text += Form1.sortedGuess[i] + " ";
+            }
+
 
         }
     }
